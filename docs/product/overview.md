@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Status** | Draft |
-| **Last updated** | 2026-09-26 |
+| **Last updated** | 2026-09-29 |
 | **Owner** | @Dawsxn |
 
 > **How to use this template:** each section has a guidance block (like this one) explaining what belongs there. Write your answer below the guidance, then delete the guidance block when the section feels done. Bullet points are fine — clarity beats polish. If you don't know something yet, put it in [Open Questions](#12-open-questions) instead of guessing.
@@ -12,17 +12,18 @@
 
 ## 1. Summary
 
-> **Guidance:** The elevator pitch, 2–4 sentences. What is it, who is it for, and what does it let them do? Someone who has never heard of the project should understand it after reading only this section.
-
+Courtside is a web platform that connects tennis players in the Philippines with coaches. It works like a job board: coaches create profiles and post openings, and players search for coaches by location, skill level, and lesson type. The goal is to replace word-of-mouth and scattered social media posts with one central place to find tennis coaching.
 
 
 ## 2. Problem
 
-> **Guidance:** What's broken or painful today, for **both** sides of the marketplace?
-> - How do players find coaches right now (word of mouth, club boards, Facebook groups, Instagram)? What's bad about that?
-> - How do coaches find students right now? What's bad about that?
-> - Any personal experience that motivated this project? (Great material for your README and interviews.)
+Right now, the Philippine tennis scene has grown exponentially due to the rapid rise in popularity of women's tennis star Alex Eala. Because of this, many people ranging from newbies to advanced players have gotten into the sport, either for the first time or again. This opens a lot of opportunities for coaching; however, there is currently no widely used, centralized platform to find these coaches.
 
+**For players:** Based on personal experience, the most common way to find a coach is by knowing someone who knows one, or through informal ways like social media. This makes it hard to compare coaches by price, location, or experience, and leaves out players who don't already have connections in the tennis community.
+
+**For coaches:** Coaches rely on the same word-of-mouth and social media posts to find students. This limits them to their existing network and makes it hard for newer coaches to build a client base.
+
+This is what Courtside tries to address.
 
 
 ## 3. Target Users & Personas
