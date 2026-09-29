@@ -4,7 +4,7 @@ Context for AI assistants working in this repo. Keep this file short; details li
 
 ## Project
 
-"courtside" (temporary codename) is a job-board-style marketplace that connects tennis players with coaches. Read [docs/product/overview.md](docs/product/overview.md) for the product context.
+"courtside" (temporary codename) is a job-board-style marketplace that connects tennis players with coaches in the Philippines. Read [docs/product/overview.md](docs/product/overview.md) for the product context.
 
 ## Structure
 
@@ -17,3 +17,19 @@ Context for AI assistants working in this repo. Keep this file short; details li
 - The backend is a **standalone, client-agnostic REST API** (JSON, token-based auth, versioned `/api/v1` routes, OpenAPI spec) so that a future mobile app can consume it. Don't put presentation logic in the backend.
 - A learning goal of this project is Spring Boot proficiency. When working on the backend, prefer idiomatic Spring approaches and explain non-obvious choices.
 - The tech stack isn't final. Check `docs/architecture/` before assuming a library or tool.
+
+## Conventions — always apply
+
+@docs/conventions/git-workflow.md
+@docs/conventions/pull-requests.md
+
+Never commit or push directly to `main` or `develop`; work on a branch and open a PR.
+
+## Reference — open when relevant
+
+- `docs/ops/environments.md` — local / development / production, and the one-database-per-environment rule
+
+## Skills
+
+- `/start-branch` — create a correctly named branch off an up-to-date `develop`
+- `/create-pr` — open a PR from the current branch following the conventions
