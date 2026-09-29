@@ -8,15 +8,15 @@ Context for AI assistants working in this repo. Keep this file short; details li
 
 ## Structure
 
-- `frontend/` — React web app (planned; component library such as shadcn/ui)
-- `backend/` — Spring Boot REST API (planned)
+- `frontend/` — React + TypeScript SPA built with Vite, Tailwind v4, shadcn/ui (planned)
+- `backend/` — Java 25, Spring Boot 4, Maven, PostgreSQL + Flyway, Spring Security with JWT (planned)
 - `docs/` — documentation; conventions are in [docs/README.md](docs/README.md)
 
 ## Principles
 
 - The backend is a **standalone, client-agnostic REST API** (JSON, token-based auth, versioned `/api/v1` routes, OpenAPI spec) so that a future mobile app can consume it. Don't put presentation logic in the backend.
 - A learning goal of this project is Spring Boot proficiency. When working on the backend, prefer idiomatic Spring approaches and explain non-obvious choices.
-- The tech stack isn't final. Check `docs/architecture/` before assuming a library or tool.
+- Check `docs/architecture/tech-stack.md` and `docs/decisions/` before adding a library or tool. A new major dependency gets an ADR.
 
 ## Conventions — always apply
 
@@ -28,6 +28,8 @@ Never commit or push directly to `main` or `develop`; work on a branch and open 
 ## Reference — open when relevant
 
 - `docs/ops/environments.md` — local / development / production, and the one-database-per-environment rule
+- `docs/architecture/tech-stack.md` — libraries, API conventions, and why
+- `docs/design/design-system.md` — brand direction and how Impeccable / Emil Kowalski's skills are used
 
 ## Skills
 

@@ -289,7 +289,8 @@ Next in line if time allows: notifications, reviews, guardian bookings, certific
 
 ## 13. Related Docs
 
-- Tech stack — _TBD_ (`docs/architecture/tech-stack.md`)
-- Design system — _TBD_ (`docs/design/design-system.md`)
+- [Tech stack](../architecture/tech-stack.md)
+- [Design system](../design/design-system.md)
+- [Environments](../ops/environments.md)
 - CI/CD — _TBD_ (`docs/ops/ci-cd.md`)
-- Decisions (ADRs) — _TBD_ (`docs/decisions/`)
+- [Decisions (ADRs)](../decisions/)
