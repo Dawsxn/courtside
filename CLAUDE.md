@@ -35,3 +35,10 @@ Never commit or push directly to `main` or `develop`; work on a branch and open 
 
 - `/start-branch` — create a correctly named branch off an up-to-date `develop`
 - `/create-pr` — open a PR from the current branch following the conventions
+
+Third-party design skills, installed with `npx skills` and pinned in `skills-lock.json` (update with `npx skills update -p`; don't edit their files by hand):
+
+- `/impeccable` (Paul Bakaus) — visual design: `init`, `document`, `critique`, `audit`, `polish`, `typeset`, `colorize`, ... Owns `PRODUCT.md` and `DESIGN.md` at the repo root.
+- Emil Kowalski's skills — motion and interaction: `animate`, `review-animations`, `improve-animations`, `find-animation-opportunities`, `animation-vocabulary`, `emil-design-eng`, `apple-design`, `mobile-native`, `prototype`, `pick-ui-library`, `ask-sonner`.
+
+Impeccable decides how things look; Emil's skills decide how things move.
