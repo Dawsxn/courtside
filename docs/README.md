@@ -7,13 +7,13 @@ Project documentation. Start with [product/overview.md](product/overview.md).
 | Doc | Purpose | Status |
 |---|---|---|
 | [product/overview.md](product/overview.md) | What we're building, for whom, and why | Draft |
-| `architecture/tech-stack.md` | Technologies and how they fit together | Not started |
-| `design/design-system.md` | Visual language, components, UI conventions | Not started |
+| [architecture/tech-stack.md](architecture/tech-stack.md) | Technologies and how they fit together | Draft |
+| [design/design-system.md](design/design-system.md) | Brand direction, and how the design system is built | Draft |
 | [ops/environments.md](ops/environments.md) | Local / development / production, and their databases | Draft |
 | `ops/ci-cd.md` | Build, test, and deploy pipelines | Not started |
 | [conventions/git-workflow.md](conventions/git-workflow.md) | Branches, commit messages, merging | Accepted |
 | [conventions/pull-requests.md](conventions/pull-requests.md) | PR titles, descriptions, releases | Accepted |
-| `decisions/` | Architecture Decision Records (ADRs) | Not started |
+| [decisions/](decisions/) | Architecture Decision Records (ADRs), 0001–0004 so far | Accepted |
 
 ## Conventions
 
