@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Status** | Draft |
-| **Last updated** | 2026-09-29 |
+| **Last updated** | 2026-09-30 |
 | **Owner** | @Dawsxn |
 
 This doc sets the brand direction and explains how the design system is
@@ -32,7 +32,7 @@ To decide when we run Impeccable's setup:
 - [ ] Tone of voice for copy (e.g. warm, concise, no jargon)
 
 Constraints from the [product overview](../product/overview.md): mobile-first,
-English, used by parents and beginners as well as competitive players.
+English, used by parents and beginners as well as returning players.
 
 ## How the system is built
 

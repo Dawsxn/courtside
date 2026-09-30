@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Status** | Draft |
-| **Last updated** | 2026-09-29 |
+| **Last updated** | 2026-09-30 |
 | **Owner** | @Dawsxn |
 
 ---
@@ -34,8 +34,6 @@ This is what Courtside tries to address.
 
 **The parent** — Looking for a coach for their child (roughly 6–17). Cares most about trust and safety: verified credentials, reviews from other parents, and a safe location. Books and communicates on the child's behalf.
 
-**The competitive player** — A junior or adult competing in tournaments, looking for a higher-level coach or a hitting partner-style coach. Filters by experience and results. Smaller group, but valuable for coach credibility on the platform.
-
 ### Coaches
 
 **The independent coach (primary)** — Teaches privately at public courts, condos, villages, or clubs. Finds students through word of mouth and social media and manages schedules over Messenger/Viber. Wants a steady stream of students and less back-and-forth scheduling.
@@ -52,6 +50,7 @@ This is what Courtside tries to address.
 
 - Court owners/venues looking to rent courts (see [Non-goals](#83-non-goals)).
 - Players looking only for hitting partners or opponents with no coaching.
+- Competitive players, since they usually already have their own private coaches.
 
 
 ## 4. Value Proposition & Alternatives
@@ -117,11 +116,13 @@ This is what Courtside tries to address.
 
 **Coach Profile** — The coach's public page: bio, experience, specialties, certifications, lesson offerings, locations, availability, and reviews.
 
-**Lesson Offering** — A type of lesson a coach provides, with its own rate and duration. Types: *Private* (1 player), *Semi-private* (2–3 players), *Group* (4+), *Clinic* (scheduled group session).
+**Lesson Offering** — What a coach sells, with its own rate. Two kinds:
+- *Pax rate* — a rate for a lesson with a given number of players ("pax"), e.g. 1 pax, 2 pax, 3–4 pax. Players request a slot from the coach's availability.
+- *Clinic* — a group session the coach schedules for a set date, time, and venue, with a limited number of spots and a price per person. Players join a spot.
 
 **Rate** — Price in PHP per session (or per hour). The coach states whether it **includes court fees and balls**, since these are often charged separately in the Philippines. Coaches may also charge a **travel fee** when going to the player's court.
 
-**Skill Level** — Simple tiers: *Beginner*, *Intermediate*, *Advanced*, *Competitive*. Optional **UTR** rating for players who have one.
+**Skill Level** — Simple tiers: *Beginner*, *Intermediate*, *Advanced*.
 
 **Venue** — A specific tennis court or facility (e.g. a public court, club, condo, or village court), located in a city/municipality (e.g. Makati, Quezon City, Taguig).
 
@@ -165,6 +166,7 @@ Priorities: **Must** = MVP is pointless without it · **Should** = important, MV
 | P11 | As a guardian, I want to book on behalf of my child and note their age so that the coach knows who they're teaching. | Should |
 | P12 | As a player, I want to save/favorite coaches so that I can come back to them later. | Could |
 | P13 | As a player, I want to post a "looking for a coach" request so that coaches can reach out to me. | Could |
+| P14 | As a player, I want to join a coach's clinic so that I can learn in a group at a lower price. | Must |
 
 ### Coaches
 
@@ -182,6 +184,7 @@ Priorities: **Must** = MVP is pointless without it · **Should** = important, MV
 | C10 | As a coach, I want to cancel a confirmed booking with a reason so that players are informed of changes. | Should |
 | C11 | As a coach, I want to respond publicly to reviews so that I can address feedback. | Could |
 | C12 | As a coach, I want to browse player "looking for a coach" requests so that I can find new students. | Could |
+| C13 | As a coach, I want to schedule clinics with a set number of spots and a price per person so that I can teach groups. | Must |
 
 ### Admin / Platform
 
@@ -200,6 +203,7 @@ Priorities: **Must** = MVP is pointless without it · **Should** = important, MV
 - Coach profiles with lesson offerings, rates, locations (P3, C2, C3)
 - Coach search and filters (P2)
 - Availability and booking requests with accept/decline and cancellation (P4, P5, P7, P8, C4, C5, C6)
+- Clinics that players can join (P14, C13)
 - In-app messaging between player and coach (P6, C7)
 - Responsive web app that works well on mobile browsers
 
@@ -283,7 +287,7 @@ Next in line if time allows: notifications, reviews, guardian bookings, certific
 - [ ] Court fees: when a lesson is at a coach's venue, who usually pays the court fee (player, or included in the coach's rate)? At a player's court, is it always the player? Should the booking show who pays?
 - [ ] Travel fees: flat fee, per-area fee, or just folded into the rate?
 - [ ] Should venues be free text, or a shared list of known courts that coaches pick from (enables "coaches near Rizal Memorial"-style search, but needs curation)?
-- [ ] Rate format: per session, per hour, or both? Should packages (e.g. 10 sessions) be supported?
+- [x] Rate format: per session, per hour, or both? Should packages (e.g. 10 sessions) be supported? **Decided:** per hour for the whole group, by pax bracket, with the price per person shown alongside; no packages for now. See [screens](screens.md).
 - [ ] How many hours per week can go into this project, and is there a target launch date?
 
 

@@ -7,6 +7,7 @@ Project documentation. Start with [product/overview.md](product/overview.md).
 | Doc | Purpose | Status |
 |---|---|---|
 | [product/overview.md](product/overview.md) | What we're building, for whom, and why | Draft |
+| [product/screens.md](product/screens.md) | The screens, what each shows, and the stories they serve | Draft |
 | [architecture/tech-stack.md](architecture/tech-stack.md) | Technologies and how they fit together | Draft |
 | [design/design-system.md](design/design-system.md) | Brand direction, and how the design system is built | Draft |
 | [ops/environments.md](ops/environments.md) | Local / development / production, and their databases | Draft |
