@@ -1,0 +1,7 @@
+# Impeccable working files. Surface briefs (.impeccable/surfaces/),
+# design.json, and config.json are shared; everything below is per-session.
+.impeccable/questions/
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/build/
+.impeccable/config.local.json
