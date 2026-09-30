@@ -1,11 +1,11 @@
 # backend
 
-The Courtside REST API: Java 25, Spring Boot 4, Maven, PostgreSQL + Flyway.
+The Courtside REST API: Java 21, Spring Boot 4, Maven, PostgreSQL + Flyway.
 See [docs/architecture/tech-stack.md](../docs/architecture/tech-stack.md).
 
 ## Prerequisites
 
-- JDK 25
+- JDK 21
 - Docker (for the local database and for tests)
 
 No Maven install needed; use the wrapper (`./mvnw`, or `mvnw.cmd` on Windows).

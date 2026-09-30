@@ -9,7 +9,7 @@ Context for AI assistants working in this repo. Keep this file short; details li
 ## Structure
 
 - `frontend/` — React + TypeScript SPA built with Vite, Tailwind v4, shadcn/ui (planned)
-- `backend/` — Java 25, Spring Boot 4, Maven, PostgreSQL + Flyway, Spring Security with JWT (planned)
+- `backend/` — Java 21, Spring Boot 4, Maven, PostgreSQL + Flyway, Spring Security with JWT (planned)
 - `docs/` — documentation; conventions are in [docs/README.md](docs/README.md)
 
 ## Principles

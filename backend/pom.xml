@@ -14,7 +14,7 @@
 	<name>courtside</name>
 	<description>Courtside REST API</description>
 	<properties>
-		<java.version>25</java.version>
+		<java.version>21</java.version>
 		<springdoc.version>3.1.1</springdoc.version>
 	</properties>
 	<dependencies>

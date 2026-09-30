@@ -44,7 +44,7 @@ Code is organised by feature (`src/features/booking/`, `src/features/search/`,
 
 | Concern | Choice | Notes |
 |---|---|---|
-| Language | **Java 25** (LTS) | |
+| Language | **Java 21** (LTS) | Matches the JDK used for other coursework, so one JDK serves both. Spring Boot 4 supports 17+; moving to 25 later is a one-line change in `pom.xml` and CI |
 | Framework | **Spring Boot 4** (latest 4.x when scaffolded), Spring Web MVC | MVC rather than WebFlux: simpler, and what most jobs use |
 | Build | **Maven** (with the Maven wrapper, `./mvnw`) | Most common in job listings and Spring tutorials |
 | Persistence | Spring Data JPA (Hibernate) | |
