@@ -12,7 +12,7 @@ web
 
 ## Users
 
-- **Players (primary):** adults in the Philippines looking for a tennis coach — most often a *new fan*, a beginner who took up tennis recently (many inspired by Alex Eala), has no connections in the tennis community, and browses on a phone. Also returning players, competitive players, and **guardians** booking lessons for a child (users must be 18+; minors never hold accounts).
+- **Players (primary):** adults in the Philippines looking for a tennis coach — most often a *new fan*, a beginner who took up tennis recently (many inspired by Alex Eala), has no connections in the tennis community, and browses on a phone. Also returning players and **guardians** booking lessons for a child (users must be 18+; minors never hold accounts).
 - **Coaches:** independent coaches, part-time or newly certified coaches without a network, and academy/club coaches filling open slots. Their job: get a steady stream of students and stop negotiating schedules over Messenger/Viber.
 - **Admin:** the operator, who reviews certifications for Verified badges and handles reports.
 
@@ -34,10 +34,10 @@ Courtside connects tennis players in the Philippines with coaches, replacing wor
 
 ## Capabilities and Constraints
 
-- MVP: accounts (Player/Coach), coach profiles, search, availability and booking requests, cancellations, in-app messaging. Next: notifications, reviews, guardian bookings, Verified badges, admin moderation.
+- MVP: accounts (Player/Coach), coach profiles, search, availability and booking requests, clinics, cancellations, in-app messaging. Next: notifications, reviews, guardian bookings, Verified badges, admin moderation.
 - English only for the MVP. Currency PHP (₱), timezone Asia/Manila.
 - Web first (responsive, mobile-first); native mobile apps later on the same API.
-- Terminology: *Coach Profile, Lesson Offering (private, semi-private, group, clinic), Venue, Court Arrangement, Service Area, Availability, Booking, Conversation, Verified Badge, Review*. Definitions in the overview's glossary.
+- Terminology: *Coach Profile, Lesson Offering (pax rate, clinic), Venue, Court Arrangement, Service Area, Availability, Booking, Conversation, Verified Badge, Review*. Definitions in the overview's glossary.
 - Undecided: final product name ("Courtside" is a codename), cancellation policy, rate format (per session vs per hour, packages), whether players can post "looking for a coach" requests.
 
 ## Brand Commitments
